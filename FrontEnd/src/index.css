@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.toastBody{
+    font-family: "Atlas Grotest web","Arial, Helvetica, sans-serif";
+    font-size: 1.7rem;
+}

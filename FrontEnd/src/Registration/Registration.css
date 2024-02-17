@@ -1,0 +1,28 @@
+.log {
+    height: 90vh;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,116,9,1) 51%, rgba(14,201,227,0.5495448179271709) 82%, rgba(0,212,255,1) 86%);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-div {
+    width: 45%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-label {
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .login-div {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  

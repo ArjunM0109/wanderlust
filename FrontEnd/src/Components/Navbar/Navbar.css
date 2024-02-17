@@ -1,0 +1,15 @@
+.navbar{
+    height: 5rem;
+}
+.navbar-brand{
+    color: #fe424d; 
+    font-weight: 800;
+}
+.btn-search{
+    background-color: #fe424d;
+    color:#fff;
+}
+.btn-search:hover{
+    background-color: #d24952;
+    color:#fff;
+}

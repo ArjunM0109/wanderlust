@@ -1,0 +1,7 @@
+.about{
+    text-decoration: none;
+    /* background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 1%, rgba(211,144,219,1) 83%); */
+    margin-top: 30px;
+    min-height: 80vh;
+}

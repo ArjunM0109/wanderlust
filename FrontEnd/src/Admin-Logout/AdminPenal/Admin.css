@@ -1,0 +1,50 @@
+.sidebar {
+    background-color: #333; /* Darker background color */
+    min-height: 80vh;
+    border-radius: 1rem;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+  }
+  
+  .sidebar li {
+    margin-bottom: 20px; /* Add margin between items */
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: sticky;
+  }
+  
+  .sidebar a:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+  
+  .sidebar a .react-icon {
+    margin-right: 10px; /* Add margin to the right of icons */
+  }
+  
+  .main-content {
+    background-color: #222; /* Dark background color */
+    height: 80vh;
+    border-radius: 1rem;
+    overflow: auto;
+    color: white;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  /* Styles for NavLink active state */
+  .sidebar a.active {
+    color: #ffd700;
+    font-weight: bold;
+  }
+  
