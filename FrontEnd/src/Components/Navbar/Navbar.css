@@ -13,3 +13,22 @@
     background-color: #d24952;
     color:#fff;
 }
+.navbar {
+    z-index: 1000; /* Ensure the navbar appears above other content */
+  }
+  
+  .bg-body-tertiary {
+    background-color:#f8f9fa; 
+    width: 100%;/* Set your desired background color */
+  }
+  
+  .navbar-collapse {
+    width: 100%;
+    background-color: #f8f9fa; /* Set the background color for the collapsed navbar */
+    z-index: 999; /* Ensure the collapsed navbar appears above the content */
+  }
+  
+  .navbar-toggler {
+    z-index: 1001; /* Ensure the toggler button appears above the content */
+  }
+  

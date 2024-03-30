@@ -47,3 +47,9 @@ body{
   .filter > div {
     width: 50px; /* Adjust the width as needed */
   }
+
+  @media screen and (max-width: 600px) {
+    .filters {
+      overflow-x: scroll;
+    }
+  }

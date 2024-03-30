@@ -50,9 +50,9 @@ export default function Footer() {
 
   return (
     <footer className='border-top'>
-      <div className="container-fluid">
+      <div className="container-fluid mt-5">
         <div className="row">
-          <h3 className="text-center mb-4">Contact-us</h3>
+          <h3 className="text-center cont">Contact-us</h3>
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-6">

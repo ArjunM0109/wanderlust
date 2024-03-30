@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [user]);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark sticky-top">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary  sticky-top">
       <div className="container-fluid mx-3">
         <NavLink className="navbar-brand" to="/">
         <i class="fa-regular fa-compass mx-2"></i>
@@ -43,11 +43,12 @@ const Navbar = () => {
                 About
               </NavLink>
             </li>
+            {isLoggedIn &&
             <li className="nav-item">
               <NavLink className="nav-link" to="/AddNewListing">
                 Add-New Listing
               </NavLink>
-            </li>
+            </li>}
           </ul>
 
 

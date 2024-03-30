@@ -6,7 +6,7 @@ const ListingCards = ({ listing }) => {
   return (
     <Link to={`/Listing/${listing._id}`} className="listing-link">
       <div className="card listing-card">
-        <img src={listing.image} className="card-img-top" alt="..." style={{ height: '20rem' }} />
+        <img src={listing.imageUrl} className="card-img-top" alt="..." style={{ height: '20rem' }} />
         <div className="card-img-overlay"></div>
         <div className="card-body">
           <p className="card-text">

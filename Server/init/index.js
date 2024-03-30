@@ -20,8 +20,8 @@ const initDB = async () => {
 
     // Modify the image field in each object of initdata.data
     initdata.data = initdata.data.map((obj) => {
-      if (obj.image && obj.image.url) {
-        return { ...obj, owner: "65cda9b5ebe025662c8d7009", image: obj.image.url };
+      if (obj) {
+        return { ...obj, owner: "65cda9b5ebe025662c8d7009" };
       } else {
         throw new Error("Invalid image data in initdata.data");
       }

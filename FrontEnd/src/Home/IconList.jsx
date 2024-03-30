@@ -2,7 +2,7 @@ import * as FaIcons from 'react-icons/fa';
 
 export default function IconList() {
   return (
-    <div className="filters d-flex mt-3">
+    <div className="container filters d-flex mt-3">
       <div className="filter"> 
         <div><FaIcons.FaFire /></div>
         <p className="ml-2">Trending</p> 
@@ -33,10 +33,6 @@ export default function IconList() {
         <div><FaIcons.FaCampground /></div>
         <p className="ml-2">Camping</p> 
       </div>
-       
-      
-       
-    
 
       <div className="filter"> 
         <div><FaIcons.FaSnowflake /></div>

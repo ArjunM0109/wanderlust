@@ -21,10 +21,11 @@ const corsOptions = {
 const app = express();
 
 // Applying CORS middleware with the defined options
+app.use(express.json());
+
 app.use(cors(corsOptions));
 
 // Parsing JSON bodies
-app.use(express.json());
 
 // Mounting route handlers
 app.use("/Listings", ListingRoute);

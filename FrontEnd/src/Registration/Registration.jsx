@@ -41,7 +41,7 @@ export default function Registration() {
         storeTokenInLocalStorage(data.token);
         setFormData({ email: '', name: '', phone: '', password: ''});
         toast.success("User Registered successfully");
-        navigate("/");
+        navigate("/login");
       }else{
         toast.error(data.extraDetails || data.message);
       }

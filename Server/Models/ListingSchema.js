@@ -11,9 +11,9 @@ const listingSchema = new Schema({
         type: String,
         //required:true
     },
-    image: {
-        url:String,
-        filename:String
+    imageUrl: {
+        type:String,
+        //required:true
     },
 
     price: {
@@ -34,8 +34,8 @@ const listingSchema = new Schema({
         }
     ],
     owner: {
-        type:Schema.Types.ObjectId,
-        ref:"User",
+        type: Schema.Types.ObjectId,
+        ref: "User",
     }
 
 });
